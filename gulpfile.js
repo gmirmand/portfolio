@@ -4,6 +4,7 @@ var uglify = require('gulp-uglify');
 var sass = require('gulp-sass');
 var rename = require('gulp-rename');
 var autoprefixer = require('gulp-autoprefixer');
+var imageop = require('gulp-image-optimization');
 
 gulp.task('scripts', function() {
     return gulp.src('js/scripts.js')
@@ -36,4 +37,12 @@ gulp.task('styles', function() {
 gulp.task('watch', ['scripts', 'styles'], function() {
     gulp.watch('js/*.js', ['scripts']);
     gulp.watch('scss/*.scss', ['styles']);
+});
+
+gulp.task('images', function(cb) {
+    gulp.src(['src/**/*.png','src/**/*.jpg','src/**/*.gif','src/**/*.jpeg']).pipe(imageop({
+        optimizationLevel: 5,
+        progressive: true,
+        interlaced: true
+    })).pipe(gulp.dest('public/images')).on('end', cb).on('error', cb);
 });
