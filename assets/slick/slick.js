@@ -467,7 +467,7 @@
                     .addClass('slick-hidden')
                     .attr({
                         'aria-disabled': 'true',
-                        'tabindex': '-1'
+                        'tabindex': '-projets'
                     });
 
             }
@@ -1278,9 +1278,9 @@
         var _ = this;
         _.$slides.add(_.$slideTrack.find('.slick-cloned')).attr({
             'aria-hidden': 'true',
-            'tabindex': '-1'
+            'tabindex': '-projets'
         }).find('a, input, button, select').attr({
-            'tabindex': '-1'
+            'tabindex': '-projets'
         });
 
         _.$slideTrack.attr('role', 'listbox');

@@ -12,7 +12,7 @@
 /*
     File Contents:
 
-        1. Variables
+        projets. Variables
         2. Mixins
         3. Global Styles
         4. Lead Styles
@@ -27,7 +27,7 @@
 
 /*
     ------------------------
-    ----- 1. Variables -----
+    ----- projets. Variables -----
     ------------------------
 */
 
@@ -89,10 +89,17 @@ $text: #74808a;
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
+  overflow: hidden;
 
   &.active {
     overflow: hidden;
     z-index: -1;
+  }
+}
+
+header {
+  &::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -661,6 +668,17 @@ footer {
   border-radius: 4px;
 }
 
+.slider {
+  background-color: white;
+  border-radius: 4px;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #2d2d2d !important;
+}
+
 .project-image {
   float: left;
 }
@@ -683,6 +701,19 @@ footer {
     color: $text;
     margin: 0 0 15px 0;
     font-size: 0.9em;
+  }
+}
+
+.under-project {
+  margin-bottom: 20px;
+  img {
+    margin: 10%;
+    height: 80%;
+    width: 80%;
+  }
+  &-text {
+    padding: 20px;
+    padding-bottom: 0;
   }
 }
 
@@ -805,6 +836,9 @@ footer {
 
 // Collapse timeline
 @media only screen and (max-width: 750px) {
+  .slick-prev:before, .slick-next:before {
+    display: none;
+  }
 
   #logo {
     z-index: 20;
@@ -846,17 +880,18 @@ footer {
   header {
     opacity: 1;
     top: -100vh !important;
-    font-size:125%;
+    font-size: 125%;
     a {
       font-weight: bold;
-      padding:5px;
-      border:solid $yellow2;
-      border-width:0 5px 0 5px;
+      padding: 5px;
+      border: solid $yellow2;
+      border-width: 0 5px 0 5px;
     }
   }
 
   #menu {
     background-color: $yellowtr;
+    overflow-x: hidden;
   }
 
   .active {
