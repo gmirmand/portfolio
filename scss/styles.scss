@@ -312,17 +312,20 @@ footer {
 }
 
 .btn-rounded-white {
-  display: inline-block;
-  color: white;
-  padding: 15px 25px;
-  border: 3px solid $yellow;
-  border-radius: 30px;
-  @include transition();
-
-  &:hover {
-    color: $base-color;
-    background: #fff;
+  &, &:visited, &:focus {
+    display: inline-block;
+    color: white;
+    padding: 15px 25px;
+    border: 3px solid $yellow;
+    border-radius: 30px;
+    @include transition();
     text-decoration: none;
+
+    &:hover {
+      color: white;
+      background: #000;
+      text-decoration: none;
+    }
   }
 }
 
@@ -521,6 +524,35 @@ footer {
     background: linear-gradient(to bottom, $base-color, rgba($base-color, 0));
     top: 100%;
     left: 303px;
+  }
+
+  .separator {
+    display: block;
+    margin: 1em 0;
+    text-align: center;
+
+    span {
+      position: relative;
+
+      &:before {
+        left: -1em;
+        transform: translateX(-100%);
+      }
+
+      &:after {
+        right: -1em;
+        transform: translateX(100%);
+      }
+
+      &:before, &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        width: 5em;
+        height: 1px;
+        background-color: #000;
+      }
+    }
   }
 }
 
