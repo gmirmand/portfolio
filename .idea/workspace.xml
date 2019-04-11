@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b5efda4-f909-4f23-8de1-749cb5c7a153" name="Default" comment="add CV">
+    <list default="true" id="8b5efda4-f909-4f23-8de1-749cb5c7a153" name="Default" comment="Update Etudes">
+      <change afterPath="$PROJECT_DIR$/assets/projets/Livret utilisateur GoVélo.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+            <state relative-caret-position="232">
+              <caret line="429" column="41" lean-forward="true" selection-start-line="429" selection-start-column="41" selection-end-line="429" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/font-awesome/css/font-awesome.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="19738" selection-start-line="3" selection-start-column="19731" selection-end-line="3" selection-end-column="19738" />
             </state>
           </provider>
         </entry>
@@ -54,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="544" column="7" lean-forward="true" selection-start-line="544" selection-start-column="7" selection-end-line="544" selection-end-column="7" />
+            <state relative-caret-position="314">
+              <caret line="549" column="17" selection-start-line="549" selection-start-column="17" selection-end-line="549" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -74,8 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>skills</find>
-      <find>a</find>
       <find>color</find>
       <find>base-color</find>
       <find>z-index</find>
@@ -102,8 +108,10 @@
       <find>header</find>
       <find>img</find>
       <find>btn-rounded-white</find>
-      <find>timeline</find>
       <find>nat</find>
+      <find>timeline</find>
+      <find>Voir le jeu</find>
+      <find>codepen</find>
     </findStrings>
     <dirStrings>
       <dir>D:\www\devportfolio</dir>
@@ -126,8 +134,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -156,7 +164,7 @@
             <path>
               <item name="devportfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="devportfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="devportfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -351,11 +359,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555018271171</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update title &amp; Expériences">
+      <created>1555020189361</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555020189361</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update Etudes">
+      <created>1555022177514</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555022177514</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59364000" />
+    <option name="totallyTimeSpent" value="63307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,19 +392,19 @@
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6497373" visible="true" weight="0.13194445" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6505102" visible="true" weight="0.13194445" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Gulp" order="2" sideWeight="0.3502627" side_tool="true" visible="true" weight="0.13194445" />
+      <window_info id="Gulp" order="2" sideWeight="0.3494898" side_tool="true" visible="true" weight="0.13194445" />
       <window_info id="npm" order="3" sideWeight="0.51501155" side_tool="true" weight="0.25266525" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35553047" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20316027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37697518" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.11512415" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32844242" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -405,7 +427,9 @@
     <MESSAGE value="small correct 1" />
     <MESSAGE value="small correct 2" />
     <MESSAGE value="add CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CV" />
+    <MESSAGE value="Update title &amp; Expériences" />
+    <MESSAGE value="Update Etudes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Etudes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -507,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -523,8 +540,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="544" column="7" lean-forward="true" selection-start-line="544" selection-start-column="7" selection-end-line="544" selection-end-column="7" />
+        <state relative-caret-position="314">
+          <caret line="549" column="17" selection-start-line="549" selection-start-column="17" selection-end-line="549" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/2g2c.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ikea.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/font-awesome/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19738" selection-start-line="3" selection-start-column="19731" selection-end-line="3" selection-end-column="19738" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="429" column="41" lean-forward="true" selection-start-line="429" selection-start-column="41" selection-end-line="429" selection-end-column="41" />
         </state>
       </provider>
     </entry>
