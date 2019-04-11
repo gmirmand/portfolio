@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteRule /index.html http://gmirmand.fr/
+RewriteRule ^index\.(php|html?)$ https://www.gmirmand.fr/ [R=301,L]
 
 ## contrôle du cache navigateur - Expire headers
 <IfModule mod_expires.c>
